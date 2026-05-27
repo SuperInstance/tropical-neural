@@ -1,0 +1,11 @@
+[package]
+name = "tropical-neural"
+version = "0.1.0"
+edition = "2021"
+description = "Tropical geometry for neural network analysis — tropical polynomial division, tropical attention, piecewise-linear network representation"
+license = "MIT"
+keywords = ["tropical", "geometry", "neural-network", "relu", "piecewise-linear"]
+categories = ["mathematics", "science"]
+repository = "https://github.com/SuperInstance/tropical-neural"
+
+[dependencies]
