@@ -76,7 +76,7 @@ impl TropicalDivision {
             q_exp.push(vec![0.0; f.n_vars]);
         }
 
-        let n = f.n_vars;
+        let _n = f.n_vars;
         let quotient = if q_exp.is_empty() {
             TropicalPolynomial::constant_with_vars(0.0, f.n_vars)
         } else {
